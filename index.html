@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon " type="image-x-png" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c82233962d.js" crossorigin="anonymous"></script>
+    <title>Smash Burguer - O Melhor Burguer Da Região!</title>
+</head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<body>
+
+    <!--header do site-->
+    <header class="navigation-header">
+
+        <section class="container">
+
+            <div class="wraper-container">
+
+                <div class="logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+
+                <ul class="nav" id="desktop">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">avaliações</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">endereço</a>
+                    </li>
+
+                </ul>
+
+                <div style="background-image: url(./img/menu-mobile.png);" class="btn-abrir-menu" id="btn-menu"></div>
+
+                <div class="menu-mobile" id="menu-mobile">
+                    <div class="btn-fechar"><i class="bi bi-x-lg"></i></div>
+
+                    <ul class="nav" id="mobile">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about">sobre</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">avaliações</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">endereço</a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+                <div class="overlay-menu" id="overlay-menu"></div>
+
+                <div class="icon-social">
+
+                    <div class="social">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="social">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </header>
+    <!--main do site-->
+    <main
+        style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./img/bg-home.jpg);"
+        class="bg-main">
+
+        <section class="container">
+
+            <div class="information-main" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <h1>Smash O Melhor Burguer Da Região</h1>
+                <p>Na Smash Burguer, acreditamos que um hambúrguer é mais do que uma refeição é uma experiência
+                    gastronômica. Cada hambúrguer é cuidadosamente preparado com o método smash, que proporciona uma
+                    crocância inconfundível por fora e uma suculência irresistível por dentro.</p>
+
+                <div class="button-main">
+
+                    <button class="btn-main">
+                        <span>Pegue o seu agora</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <!--section about do site-->
+
+    <section id="about" class="about">
+        <h1 class="title"> <span>sobre</span> nós</h1>
+
+        <section class="container">
+
+            <div class="text-about">
+                <h1>O Que Faz Nosso Burguer Especial</h1>
+                <p>Nosso método é o que nos diferencia. Ao esmagar a carne diretamente na chapa quente, criamos uma
+                    crosta irresistível que conserva todos os sucos e sabores no centro do hambúrguer. O resultado? Uma
+                    explosão de texturas e um sabor inigualável.</p>
+            </div>
+
+            <div class="image-about">
+                <img src="./img/bg-sobre.jpg" alt="bg-sobre">
+            </div>
+
+        </section>
+
+    </section>
+
+    <!--section menu-->
+
+    <section id="menu" class="menu">
+        <h1 class="title"> <span>nosso</span> menu</h1>
+
+        <section class="container">
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <div class="box-content">
+
+                            <div class="box">
+
+                                <img src="./img/hamb-1.png" alt="hamb-1">
+
+                                <h3>Smash Original</h3>
+
+                                <div class="price">R$15,99 <span>R$20,99</span></div>
+
+                                <button class="btn-main">
+                                    <span>Adicione ao Carrinho</span>
+                                </button>
+
+                            </div>
+
+                            <div class="box">
+
+                                <img src="./img/hamb-2.png" alt="hamb-2">
+
+                                <h3> Cheddar Beast </h3>
+
+                                <div class="price">R$15,99 <span>R$20,99</span></div>
+
+                                <button class="btn-main">
+                                    <span>Adicione ao Carrinho</span>
+                                </button>
+
+                            </div>
+
+                            <div class="box">
+
+                                <img src="./img/hamb-3.png" alt="hamb-3">
+
+                                <h3>Double Trouble </h3>
+                                <div class="price">R$15,99 <span>R$20,99</span></div>
+
+                                <button class="btn-main">
+                                    <span>Adicione ao Carrinho</span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <div class="box-content">
+
+                            <div class="box">
+
+                                <img src="./img/hamb-4.png" alt="hamb-4">
+
+                                <h3>Spicy Smash</h3>
+
+                                <div class="price">R$15,99 <span>R$20,99</span></div>
+
+                                <button class="btn-main">
+                                    <span>Adicione ao Carrinho</span>
+                                </button>
+
+                            </div>
+
+                            <div class="box">
+
+                                <img src="./img/hamb-5.png" alt="hamb-5">
+
+                                <h3>BBQ King</h3>
+
+                                <div class="price">R$15,99 <span>R$20,99</span></div>
+
+                                <button class="btn-main">
+                                    <span>Adicione ao Carrinho</span>
+                                </button>
+
+                            </div>
+
+                            <div class="box">
+
+                                <img src="./img/hamb-6.png" alt="hamb-6">
+
+                                <h3>Truffle Smash</h3>
+
+                                <div class="price">R$15,99 <span>R$20,99</span></div>
+
+                                <button class="btn-main">
+                                    <span>Adicione ao Carrinho</span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </section>
+
+    <!--section evaluations-->
+
+    <section id="reviews" class="feedback">
+        <h1 class="title"><span>nossos</span> clientes</h1>
+
+        <section class="container">
+
+            <div class="box-feed">
+
+                <div class="box">
+
+                    <i class="fa-solid fa-quote-left"></i>
+
+                    <p>Experiência incrível! O atendimento foi super rápido e o hambúrguer estava delicioso, com
+                        ingredientes frescos e muito bem preparado. Com certeza voltarei mais vezes</p>
+                    <img src="./img/pic-1.png" alt="pic-1">
+
+                    <h3>João da Silva</h3>
+
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <i class="fa-solid fa-quote-left"></i>
+
+                    <p>Adorei o hambúrguer! Sabor impecável, carne no ponto certo e o pão bem macio. O site facilitou o
+                        pedido e a entrega foi rápida. Recomendo muito!</p>
+
+                    <img src="./img/pic-2.png" alt="pic-2">
+
+                    <h3>Maria Pereira</h3>
+
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <i class="fa-solid fa-quote-left"></i>
+
+                    <p>Simplesmente perfeito! O hambúrguer veio quentinho e com sabor incrível. O site é fácil de
+                        navegar e o atendimento foi excelente. Muito satisfeito!</p>
+
+                    <img src="./img/pic-3.png" alt="pic-3">
+
+                    <h3>Lucas Cesar</h3>
+
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                </div>
+
+        </section>
+
+    </section>
+
+    <!--section contact-->
+
+    <section id="contact" class="contact-form">
+        <h1 class="title"><span>Nosso</span> Contato</h1>
+        <section class="container">
+
+            <form>
+
+                <div class="input-wraper w100">
+                    <input type="text" placeholder="Nome:" required />
+                </div>
+
+                <div class="input-wraper w50">
+                    <input type="text" placeholder="E-mail:" required />
+                </div>
+
+                <div class="input-wraper w50">
+                    <input type="text" placeholder="Telefone:" required />
+                </div>
+
+                <div class="input-wraper w100">
+                    <textarea placeholder="Deixe sua mensagem.." required></textarea>
+                </div>
+
+                <div class="input-wraper w100">
+                    <input type="submit" name="acao" value="Enviar" />
+                </div>
+
+            </form>
+
+            <div class="clear"></div>
+        </section>
+
+    </section>
+
+    <!--footer do site-->
+
+    <footer class="footer">
+
+        <section class="container">
+
+            <div class="footer-information">
+                <h2>Informações</h2>
+                <p class="footer-one"><span>Tel</span>: (21) 971744090</p>
+                <p class="footer-two"><span>E-mail</span>: SmashBurguer@hotmail.com</p>
+
+                <div class="icon-footer">
+
+                    <div class="elements">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                    <div class="elements">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+
+                    <div class="elements">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-information">
+                <h2>Horários</h2>
+                <p class="footer-one">Segunda a Sexta:</p>
+                <p class="footer-two"><span>18:30</span> até <span>23:50</span></p>
+                <div class="button-footer">
+                    <a href="#">Mais Informações</a>
+                </div>
+            </div>
+
+            <div class="footer-information">
+                <h2>Endereço</h2>
+                <p class="footer-one"><span>AV.</span> Dra. Ruth Cardoso <span>4777</span> </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117021.94225714327!2d-46.78742408752439!3d-23.570752886091906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bd7dd3f269%3A0x72273dff36e63560!2sShopping%20P%C3%A1tio%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1729604824030!5m2!1spt-BR!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="clear"></div>
+        </section>
+
+    </footer>
+
+    <!--footer autor do site-->
+
+    <footer class="author">
+
+        <section class="container">
+
+            <div class="wraper-author">
+
+                <div class="name-author">
+                    <p> <span>© 2024</span> - Desenvolvedor Pedro Souza</p>
+                </div>
+            </div>
+
+        </section>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+<script src="js/function.js" defer></script>
+
+</html>
